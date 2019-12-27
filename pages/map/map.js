@@ -26,7 +26,7 @@ Page({
     //定位到当前城市
     that.getLocation();
     let BMap = new bmap.BMapWX({
-      ak: 'aSGhaXHzGUEIjNzVVZZmAWbP2O8Q3aTf'
+      ak: 'Do47Z7fg8Kf533ZaPiNaajbhFqLR521i'
     });
     that.setData({
       myBMap: BMap
@@ -156,22 +156,25 @@ Page({
     let locLat = locDataset.lat;
     let locLng = locDataset.lng;
     let locDatasetArray = [];
-    //console.log(locDataset);
-    //locDatasetArray.push(locDataset);
-    // console.log(locDatasetArray)
-    // let success = function(data){
-    //   console.log(data +'success')
-    //   locDatasetArray = data.wxMarkerData;
-    //   that.setData({
-    //     markers: locDatasetArray
-    //   });
-    //   that.setData({
-    //     latitude: locDatasetArray[0].lat
-    //   });
-    //   that.setData({
-    //     longitude: locDatasetArray[0].lng
-    //   })
-    // };
+    
+    console.log(locDataset);
+    locDatasetArray.push(locDataset);
+    console.log(locDatasetArray)
+    let success = function(data){
+      console.log(data +'success')
+      locDatasetArray = data.wxMarkerData;
+      that.setData({
+        markers: locDatasetArray
+      });
+      that.setData({
+        latitude: locDatasetArray[0].lat
+      });
+      that.setData({
+        longitude: locDatasetArray[0].lng
+      })
+    };
+
+
     this.data.myBMap.regeocoding({
       fail: this.data.fail,
       success: this.data.success,
