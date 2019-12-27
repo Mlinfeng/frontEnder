@@ -14,6 +14,17 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
-module.exports = {
-  formatTime: formatTime
+var REG_BODY = /<body[^>]*>([\s\S]*)<\/body>/
+const getBodyHtml = html => {
+  let result = REG_BODY.exec(html)
+  if (result && result.length === 2) return result[1].replace(/<script.*?>.*?<\/script>/gi, '')
+  return content.replace(/<script.*?>.*?<\/script>/gi, '')
 }
+module.exports = {
+  getBodyHtml,
+  formatTime
+}
+
+// module.exports = {
+//   formatTime: formatTime
+// }
