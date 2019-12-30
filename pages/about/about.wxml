@@ -1,6 +1,6 @@
 <view class='about-headContainer'>
     <view class='about-headImgOne'>
-    <image src='../../images/bg/aboutBg1.jpg'></image>
+      <image src='../../images/bg/aboutBg1.jpg'></image>
     </view>
     <view class='about-headImgTwo'>
       <image src='../../images/bg/claraG.jpg'></image>
@@ -10,17 +10,17 @@
 <view class='about-infoContainer'>
   <view class='about-infoContent'>
       <view class='about-me'>
-        <text>ClaraG</text>
+        <text>DingFang</text>
       </view>
       <text class='about-meInfo'>真正的大师永远怀着一颗学徒的心</text>
       <view class='about-infoTech'>
         <view class='about-infoTech-item'>
           <icon class='iconfont icon-gitee' size='35' style="color:#ec8329"></icon>
-          https://gitee.com/claraPro
+          https://gitee.com/dionfong
         </view>
         <view class='about-infoTech-item'>
           <icon class='iconfont icon-github' size='35' style="color:#333;"></icon>
-          https://github.com/Clara07
+          https://github.com/Mlinfeng
         </view>
         <view  class='about-infoTech-item'>
           <icon class='iconfont icon-csdn' size='35' style="color:red;"></icon>

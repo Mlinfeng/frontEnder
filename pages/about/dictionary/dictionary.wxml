@@ -10,7 +10,7 @@
   </view>
   <view class="senView">
     <view>例句:</view>
-    <view class="senSen"  wx:for="{{senInfo}}">
+    <view class="senSen"  wx:for="{{senInfo}}" wx:key="key">
       <view class='senExam'>
         {{item.first}}<text style='color:#f8899d;font-weight:bold;font-size:26rpx;'>{{item.word}}</text>{{item.last}}
       </view>

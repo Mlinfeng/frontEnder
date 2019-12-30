@@ -1,6 +1,7 @@
 .about-headContainer {
   width: 100%;
   position: relative;
+  ime-mode:  'scaleToFill',
 }
 
 .about-headImgOne {
