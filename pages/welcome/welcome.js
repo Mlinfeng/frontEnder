@@ -16,7 +16,7 @@ Page({
   },
   onShareAppMessage: function() {
     return {
-      title: 'Clara G',
+      title: '瑞读资讯',
       desc: '不看看就分享?o(*￣︶￣*)o',
       success: function(res) {
         wx.showToast({

@@ -24,17 +24,17 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f0f0f0",
-    "navigationBarTitleText": "Clara G",
+    "navigationBarTitleText": "瑞读资讯",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "selectedColor": "#f65f7c",
+    "selectedColor": "#1296db",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "images/icon/ico-home.png",
-        "selectedIconPath": "images/icon/ico-home-d.png"
+       "selectedIconPath":"images/icon/ico-home-d.png"
       },
      {
       "pagePath": "pages/news/news",

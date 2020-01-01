@@ -1,10 +1,11 @@
 # frontEnder
 # 项目介绍
-小程序前端er的开源代码,只要包括新闻资讯,天气,百度地图小程序版,快递查询,字典查询等功能,是新手开发小程序学习可以参考的案例
+小程序前端er的开源代码,只要包括新闻资讯,天气,腾讯地图小程序版,快递查询,字典查询等功能,是新手开发小程序学习可以参考的案例
 # 软件架构
 采用小程序统一的开发框架,具体目录如下
-https://ftp.bmp.ovh/imgs/2019/12/0a1d0006bbb4cca0.png
-  
+
+  ![输入图片说明](https://ftp.bmp.ovh/imgs/2019/12/0a1d0006bbb4cca0.png "屏幕截图.png")
+           
 # 安装教程
 1.	先去微信公众平台注册小程序账号,也开先注册自己的订阅号,在菜单中快速注册小程序,与订阅号关联;笔者在此注册的是个人主体的小程序,小程序服务类目受局限,不过做开发学习使用就可以了
 2.	根据微信公众平台的步骤注册完成后,完善小程序的信息.然后仔细学习开发文档和提示
@@ -15,11 +16,10 @@ https://ftp.bmp.ovh/imgs/2019/12/0a1d0006bbb4cca0.png
 3.	附小程序截图
 
 
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/160628_535a426e_1356068.png "屏幕截图.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/160637_e4a6ead9_1356068.png "屏幕截图.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/160901_0e67667f_1356068.png "屏幕截图.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/160703_804a35e8_1356068.png "屏幕截图.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/160715_47d93c53_1356068.png "屏幕截图.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/160722_d319e72b_1356068.png "屏幕截图.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/160730_0b09f4ac_1356068.png "屏幕截图.png")
-           
+![输入图片说明](https://ws1.sinaimg.cn/large/006Hpjkyly1gahet0kabhj30d90jq139.jpg "屏幕截图.jpg")
+![输入图片说明](https://ws1.sinaimg.cn/large/006Hpjkyly1gaheszwm3yj30b80jiwg7.jpg "屏幕截图.jpg")
+![输入图片说明](https://ws1.sinaimg.cn/large/006Hpjkyly1gahet0aejfj30dr0m3wkz.jpg "屏幕截图.jpg")
+![输入图片说明](https://ws1.sinaimg.cn/large/006Hpjkyly1gahet0lko3j30bl0kawl1.jpg "屏幕截图.jpg")
+![输入图片说明](https://ws1.sinaimg.cn/large/006Hpjkyly1gahet0ka14j30bc0k144v.jpg "屏幕截图.jpg")
+![输入图片说明](https://ws1.sinaimg.cn/large/006Hpjkyly1gaheszwm3yj30b80jiwg7.jpg "屏幕截图.jpg")
+

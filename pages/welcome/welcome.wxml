@@ -1,6 +1,6 @@
 <view class='wrap'>
   <image class='welcomeImg' src='../../images/welcomeIndex.png' />
-  <text class='h3 fixedText fixedShadowText'>前端er
+  <text class='h3 fixedText fixedShadowText'>
   技术源于生活</text>
   <view class='userinfo' style='position:absolute;'>
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">看看自己的头像</button>

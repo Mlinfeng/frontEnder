@@ -1,5 +1,5 @@
 {
-  "navigationBarBackgroundColor": "#21EFEF",
+  "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
   "usingComponents": {
     "component-copyright": "../../components/copyright/copyright",

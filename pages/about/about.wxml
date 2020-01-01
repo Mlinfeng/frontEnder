@@ -1,10 +1,10 @@
 <view class='about-headContainer'>
     <view class='about-headImgOne'>
-      <image src='../../images/bg/aboutBg1.jpg'></image>
+      <image src='https://ws1.sinaimg.cn/large/006Hpjkyly1gaf3rt7oi5j30hr0d7dj3.jpg'></image>
     </view>
-    <view class='about-headImgTwo'>
-      <image src='../../images/bg/claraG.jpg'></image>
-    </view>
+    <cover-view class='about-headImgTwo'>
+      <cover-image src='../../images/bg/me.jpg'></cover-image>
+    </cover-view>
 </view>
 <!-- 底部信息 -->
 <view class='about-infoContainer'>
@@ -24,7 +24,7 @@
         </view>
         <view  class='about-infoTech-item'>
           <icon class='iconfont icon-csdn' size='35' style="color:red;"></icon>
-          https://blog.csdn.net/Clara_G
+          https://blog.csdn.net/Dingfang
         </view>
       </view>
   </view>
@@ -32,7 +32,7 @@
 <!-- 个性标签 -->
 <view class='about-gxContainer'>
   <view class='about-gxContainer-title'>个性标签</view>
-  <image src='../../images/bg/aboutGx.jpg'></image>
+  <image src='https://ws1.sinaimg.cn/large/006Hpjkyly1gaf3rt9248j30u00ck10a.jpg'></image>
 </view>
 <!-- 功能区 -->
 <view class='about-funcContainer'>
