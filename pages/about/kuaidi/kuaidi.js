@@ -23,7 +23,7 @@ Page({
     arry:[],
     einputinfo: null,//输入框值
     expressInfo: null, //快递信息
-    show: false,//控制下拉列表的显示隐藏，false隐藏、true显示
+    show: true,//控制下拉列表的显示隐藏，false隐藏、true显示
     kdname: "--请选择--",//下拉列表显示名称
     kdvalue:''//下拉列表对应的值
   },
@@ -42,8 +42,8 @@ Page({
       kdvalue: kdValue,
       show: !this.data.show
     });
-    // console.log(this.data.kdname);
-    // console.log(this.data.kdvalue);
+    console.log(this.data.kdname);
+    console.log(this.data.kdvalue);
   },
 
   /**

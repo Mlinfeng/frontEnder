@@ -63,6 +63,7 @@ text-align: center;
   text-align:center;
 font-size:24rpx;
 color:#666;
+
 }
 .about-infoTech-item {
   padding:5px 12px;
