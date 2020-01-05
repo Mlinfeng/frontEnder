@@ -5,7 +5,7 @@
   <input type="text" placeholder="输入演员或片名" 
   placeholder-class="placeholder" bindfocus="onBindFocus"
   bindblur="onBindBlur" value='{{searchText}}'/>
-  <image wx:if="{{searchPanelShow}}" src="/images/icon/xx.png" class="xx-img" bindtap="onCancelImgTap"></image>
+  <image wx:if="{{searchPanelShow}}" src="https://ws1.sinaimg.cn/large/006Hpjkyly1gakkl4jcp6j30gh0ddglt.jpg" class="xx-img" bindtap="onCancelImgTap"></image>
 </view>
 <view class="container" wx:if="{{containerShow}}">
   <view class="movies-template">

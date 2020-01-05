@@ -3,7 +3,7 @@ var app = getApp();
 Page({
   data:{
     weekday: ['周日', '周一','周二','周三', '周四','周五','周六'],
-    showday:['今天','明天',''],
+    showday:['今天','明天','后天'],
     city:'',//城市
     district:'',//区域
     now:'',//实时天气
