@@ -36,7 +36,7 @@ Page({
   // 点击下拉列表
   optionTap(e) {
     let kdName = e.currentTarget.dataset.key;//获取点击的下拉列表的名称
-    let kdValue = e.currentTarget.dataset.value;//获取点击的下拉列表的值
+    let kdValue = e.currentTarget.dataset.kdvalue;//获取点击的下拉列表的值
     this.setData({
       kdname: kdName,
       kdvalue: kdValue,

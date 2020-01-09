@@ -39,7 +39,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '豆瓣电影',
-      desc: '一起来前端er找电影吧~'
+      desc: '一起来瑞读资讯找电影吧~'
     }
   }
 })

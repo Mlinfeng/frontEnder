@@ -59,7 +59,7 @@ Page({
           if (res.data.status_code==1){
             wx.hideLoading();
             wx.showToast({
-              title:'只能查找单词哦,小C会继续努力哒😘',
+              title:'只能查找单词哦,小方会继续努力哒😘',
               icon:'none',
               duration:2000
             })

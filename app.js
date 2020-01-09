@@ -13,8 +13,6 @@ App({
     doubanBase: "https://douban.uieee.com",
     heWeatherBase: "https://free-api.heweather.com",
     juhetoutiaoBase: "https://v.juhe.cn/toutiao/index",
-    // bMapBase:"https://api.map.baidu.com",
-    // bMapKey:"aSGhaXHzGUEIjNzVVZZmAWbP2O8Q3aTf",
     kuaidiBase:"https://www.kuaidi100.com/query",
     kuaidiKey:"",
     dictBase:"https://api.shanbay.com/bdc/search/",

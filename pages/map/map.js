@@ -1,4 +1,4 @@
-/*百度地图调用 */
+/*腾讯地图调用 */
 var app = getApp();
 let bmap = require('../../libs/bmap-wx.min.js');
 let wxMarkerData = [];

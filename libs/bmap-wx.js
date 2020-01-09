@@ -1,6 +1,6 @@
 /**
  * @file 微信小程序JSAPI
- * @author 崔健 cuijian03@baidu.com 2017.01.10
+ 
  */
 
 /**
