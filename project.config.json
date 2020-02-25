@@ -48,14 +48,7 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "pages/about/kuaidi/kuaidi",
-					"pathName": "pages/about/kuaidi/kuaidi",
-					"scene": null
-				}
-			]
+			"list": []
 		}
 	}
 }
