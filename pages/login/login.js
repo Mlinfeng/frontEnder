@@ -14,6 +14,11 @@ Page({
   data: {
 
   },
+  register: function () {
+    wx.redirectTo({
+      url: '/pages/register/register'
+    })
+  },
   //输入用户名
   inputName: function (event) {
     name = event.detail.value//将用户输入的账号放到变量里面
@@ -52,10 +57,13 @@ Page({
             }
           } else {   //不存在
             wx.showToast({
-              title: '无此用户名！！',
+              title: '无此用户名,请注册或重新登录',
               icon: 'none',
               duration: 2500
             })
+            // wx.switchTab({
+            //   url: '/pages/index/index',//这里是成功登录后跳转的页面
+            // })
           }
         }
       }

@@ -2,6 +2,11 @@
 .content{
   margin-top: 40px;
 }
+.biaoti{
+  margin-top: 100rpx;
+  text-align: center;
+  font-size: 50rpx;
+}
 .account{
    display: flex;
    flex-direction: row;
@@ -20,6 +25,10 @@
   width: 90%;
   margin: 0 auto;
   background-color: red;
+}
+.button{
+  margin-top: 30rpx;
+  width: 90%;
 }
 .btn{
   width: 90%;

@@ -1,6 +1,6 @@
 <!--pages/login/login.wxml-->
 <view class="content">
-
+ <view class="biaoti">登录瑞读</view>
   <view class="account">
   <view class="title">账号</view>
   <view class="num"><input bindinput="inputName" placeholder="用户名"  placeholder-style="color:#999999;"/></view>
@@ -17,6 +17,6 @@
   <view class="hr"></view>
 
   <button class="btn" type="primary" bindtap="login">登录</button> 
-   
+   <view class="button" bindtap="register">点此前往注册</view>
 </view>
 
